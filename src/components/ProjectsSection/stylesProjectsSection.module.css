@@ -1,0 +1,121 @@
+.containerSection {
+    background-color: var(--Grey-6);
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+
+}
+
+.pricipalTitle {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px 20px;
+}
+
+.pricipalTitle h1 {
+    color: var(--Grey-1);
+}
+
+.pricipalTitle p {
+    color: var(--Grey-3);
+}
+
+.pricipalTitle span {
+    color: var(--Color-tertiary);
+}
+
+.containerProjects {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.containerList {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    gap: 20px;
+}
+
+.containerList h1 {
+    color: var(--Grey-1);
+    font-size: 25px;
+}
+
+.containerList p {
+    color: var(--Grey-3);
+    font-size: 14px;
+}
+
+.containerList span {
+    background-color: var(--Grey-5);
+    padding: 5px;
+    border-radius: 4px;
+    margin-left: 9px;
+}
+
+.imgGit {
+    background-image: url("./../../assets/git-icon.png");
+    background-position: center;
+    background-size: 17px;
+    padding: 15px;
+    background-repeat: no-repeat;
+}
+
+.imgArron {
+    background-image: url("./../../assets/icons8-direita-2-50.png");
+    background-position: center;
+    background-size: 15px;
+    padding: 10px;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    background-color: var(--Grey-1);
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.containerGit,
+.containerAplication {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 4px;
+}
+
+.links a {
+    font-size: 14px;
+    color: var(--Grey-3);
+    text-decoration: none;
+}
+
+.links a:hover {
+    color: var(--Grey-2);
+}
+
+@media(min-width: 900px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .containerProjects {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-left: 0px;
+        gap: 50px;
+        justify-content: space-between;
+    }
+
+    .pricipalTitle {
+        padding-top: 50px;
+        padding-left: 0px;
+    }
+}

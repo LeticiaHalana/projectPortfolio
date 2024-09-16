@@ -1,0 +1,115 @@
+.containerSection {
+    background-color: var(--Grey-5);
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px 25px;
+
+
+}
+
+.containerTitle {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 40px;
+}
+
+.containerTitle h1 {
+    font-size: 25px;
+    color: var(--Grey-1);
+}
+
+.containerTitle span {
+    font-size: 25px;
+    color: var(--Color-primary);
+}
+
+.containerTitle p {
+    font-size: 16px;
+    color: var(--Grey-3);
+}
+
+.containerInfos {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.imgIconWpp,
+.imgIconEmail,
+.imgIconLinkedin {
+    background-image: url("./../../assets/icons8-whatsapp-50.png");
+    background-repeat: no-repeat;
+    background-size: 20px;
+    padding: 20px;
+    background-color: var(--Color-Secondary);
+    background-position: center;
+    border-radius: 4px;
+}
+
+.imgIconEmail {
+    background-image: url("./../../assets/icons8-nova-mensagem-50.png");
+    background-color: var(--Instagram);
+}
+
+.imgIconLinkedin {
+    background-image: url("./../../assets/icons8-linkedin-50.png");
+    background-color: var(--LinkdIn);
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+.cardInfos {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.containerInfos h2 {
+    font-size: 18px;
+    color: var(--Grey-1);
+
+}
+
+.containerInfos p {
+    font-size: 14px;
+    color: var(--Grey-3);
+
+}
+
+.containerInfos a {
+    font-size: 14px;
+    color: var(--Grey-2);
+    text-decoration: none;
+
+}
+
+.containerInfos a:hover {
+    color: var(--Grey-3);
+
+}
+
+@media(min-width: 900px) {
+    .container {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        padding: 100px 0px;
+    }
+
+    .containerTitle {
+        padding-right: 120px;
+        padding-bottom: 0;
+    }
+}

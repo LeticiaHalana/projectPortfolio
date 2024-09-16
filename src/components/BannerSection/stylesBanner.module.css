@@ -1,0 +1,160 @@
+.containerSection {
+    background-color: var(--Grey-5);
+    border-bottom: 2px solid var(--Grey-1);
+}
+
+.containerBanner {
+    max-width: 900px;
+    margin: 0 auto;
+    height: 550px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.bannerImg {
+    background-image: url("/src/assets/Imagem\ do\ WhatsApp\ de\ 2024-05-10\ à\(s\)\ 20.56.50_55bb33f9.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+    object-fit: fill;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.containerImgName {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.containerImgName h2 {
+    font-size: 16px;
+    color: var(--Grey-1);
+}
+
+.containerBanner aside {
+    display: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+    padding: 10px;
+}
+
+.texts span {
+    color: var(--Color-primary);
+}
+
+.texts p {
+    color: var(--Grey-3);
+    font-size: 16px;
+}
+
+.texts {
+    display: flex;
+    gap: 22px;
+    font-size: 30px;
+    flex-direction: column;
+    color: var(--Grey-1);
+}
+
+.buttonGit {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.buttonGit button,
+.buttonGit a {
+    padding: 10px;
+    border-radius: 4px;
+    border: transparent;
+    background-color: var(--Color-primary);
+    color: var(--Grey-1);
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+.buttonGit button:hover,
+.buttonGit a:hover {
+    background-color: var(--Color-primary-50);
+}
+
+.git {
+    background-image: url("/src/assets/git-icon.png");
+    background-position: center;
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    border-radius: 50% !important;
+}
+
+.html,
+.css,
+.js,
+.react {
+    background-image: url("/src/assets/html-icon.png");
+    width: 35px;
+    height: 35px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.css {
+    background-image: url("/src/assets/css-icon.png");
+}
+
+.js {
+    background-image: url("/src/assets/js-icon.png");
+}
+
+.react {
+    background-image: url("/src/assets/react-icon.png");
+}
+
+.ferramentas {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    margin-top: 25px;
+    justify-content: center;
+}
+
+@media(min-width: 900px) {
+
+    .containerBanner aside {
+        display: flex;
+        align-items: center;
+    }
+
+    .containerBanner {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    .container {
+        align-items: flex-start;
+        padding: 0px;
+    }
+
+    .buttonGit {
+        justify-content: flex-start;
+    }
+
+    .ferramentas {
+        justify-content: flex-start;
+    }
+}

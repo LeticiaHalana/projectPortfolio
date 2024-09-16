@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+:root {
+    --Color-primary: #623CEA;
+    --Color-primary-50: #311E75;
+    --Color-Secondary: #49ba8b;
+    --Color-Secondary-50: #E5F8F0;
+    --Color-tertiary: #FF577F;
+    --Color-quaternary: #506CCF;
+    --Color-quaternary-50: #E5E9F8;
+
+    --Instagram: #CF50AC;
+    --LinkdIn: #0E76A8;
+
+    --Grey-1: #F8F9FA;
+    --Grey-2: #E9ECEF;
+    --Grey-3: #868E96;
+    --Grey-4: #212529;
+    --Grey-5: #121214;
+    --Grey-6: #0A0A0B;
+}
