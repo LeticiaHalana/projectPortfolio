@@ -13,7 +13,7 @@
 }
 
 .bannerImg {
-    background-image: url("./../../assets/Imagem\ do\ WhatsApp\ de\ 2024-05-10\ à\(s\)\ 20.56.50_55bb33f9.jpg");
+    background-image: url("/src/assets/foto.jpg");
     background-repeat: no-repeat;
     background-position: center;
     width: 50px;

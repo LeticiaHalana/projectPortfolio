@@ -1,11 +1,14 @@
 import styles from "./stylesBanner.module.css";
+import imagemBanner from "./../../assets/banner-img.png";
 
 export const BannerSection = () => {
-
+    const imgBanner = imagemBanner;
     return (
         <section className={styles.containerSection} >
             <div className={styles.containerBanner}>
-                <aside> <img src="/src/assets/banner-img.png" alt="" />  </aside>
+                <aside> 
+                    <img src={imgBanner} alt="banner" />  
+                    </aside>
                 <div className={styles.container} >
                     <div className={styles.containerImgName}>
                         <div className={styles.bannerImg}></div>
